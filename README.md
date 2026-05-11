@@ -1,19 +1,52 @@
-# :earth_americas: GDP dashboard template
 
-A simple Streamlit app showing the GDP of different countries in the world.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
 
-### How to run it on your own machine
+# Sleep Quality Analytics Dashboard
 
-1. Install the requirements
+Interactive healthcare analytics dashboard built with Streamlit and Python.
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## Project Overview
 
-2. Run the app
+This project explores relationships between behavioral and physiological factors affecting sleep quality.
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+The dashboard allows users to:
+- Analyze sleep trends
+- Explore stress and caffeine impact
+- Visualize correlations
+- Filter data interactively
+- Explore healthcare-related insights
+
+## Features
+
+- Interactive filters
+- KPI metrics
+- Correlation heatmap
+- Sleep quality distributions
+- Behavioral analysis charts
+- Real-time filtering
+
+## Technologies Used
+
+- Python
+- Streamlit
+- pandas
+- matplotlib
+- seaborn
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Future Improvements
+
+- Plotly interactive charts
+- Machine learning predictions
+- Cloud deployment
+
+## Author
+
+Martina Misiano
